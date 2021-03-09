@@ -1,0 +1,20 @@
+@import 'configs';
+@import 'utilities';
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:$font-stack;
+    height:100vh;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.showcase{
+    background-color:$primary-color;
+    color:#fff;
+    height:100%;
+}

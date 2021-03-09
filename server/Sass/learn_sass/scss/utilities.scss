@@ -1,0 +1,33 @@
+%btn{
+    color:#EFF8F9;
+    font-size:17px;
+    border-radius:4px;
+    width:110px;
+    height:40px;
+    padding:3px;
+    &:hover{
+        transform:scale(0.97);
+    }
+    outline:none;
+    border:none;
+    transition:.1s ease-out;
+}
+.primary-btn{
+    @extend %btn;
+    background-color:#1A5276;
+
+}
+.secondary-btn{
+    @extend %btn;
+    background-color:#273746;
+}
+@if(comparable(20mm,1cm)){
+    .test{
+        color:rgba(0,0,0,0.1);
+    }
+}
+@else{
+    .test{
+        color:#fff;
+    }
+}
